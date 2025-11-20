@@ -4,7 +4,7 @@ import AboutImageFile from './../assets/images/eflyer.jpg'
 export default class About extends Component {
   render() {
     return <>
-    <section className='container'>
+    <section className='container vh-100'>
 
         <div className="row align-items-center">
 
