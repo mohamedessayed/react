@@ -1,0 +1,8 @@
+.card-widget{
+    transition: all 1s ease-in;
+}
+
+.card-widget:hover{
+    background-color: black;
+    color: #fff;
+}
