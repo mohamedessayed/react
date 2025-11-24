@@ -2,6 +2,7 @@ import { Component } from "react";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import CardWidget from "./components/sharedComponents/CardWidget";
+import Demo from "./components/test/Demo";
 
 
 
@@ -40,6 +41,7 @@ export default class App extends Component {
     return <>
 
       <Navbar />
+      <Demo />
 
       {this.state.data&&this.state.data.map((dataElament, index) => <CardWidget key={index} {...dataElament} />)}
 
